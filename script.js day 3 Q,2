@@ -1,0 +1,21 @@
+Use the rest countries'API URL and display all the country flags in the country
+
+//STEP 1: To interact with server xml-http req
+//     var request =new xmlhttp request ();
+
+//STEP 2: Specify the API URL
+//     request.open ("GET"),"http:restcountries.com/v2/all
+
+//STEP 3: Sending the request
+//     request.send ();
+//   request.onload =function(){
+    var result =JSON.parse(request.response);
+    console.log(result);
+    for(var i=0; i<=result.length;i++){
+        var flog = result[i].;
+        console.log(flag);
+    }
+    
+}
+
+
